@@ -11,6 +11,8 @@ const int MPU = 0x68;
 int16_t accX, accY, accZ;
 int16_t gyroX, gyroY, gyroZ;
 
+//    int sclPin = A4
+//    int scdPin = A5
 const int servoXPin = 9;
 const int servoYPin = 10;
 const int servoCamZPin = 11;
